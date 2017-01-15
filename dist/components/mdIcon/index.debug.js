@@ -131,20 +131,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	exports.default = install;
 
-	var _mdIcon = __webpack_require__(276);
+	var _mdIcon = __webpack_require__(251);
 
 	var _mdIcon2 = _interopRequireDefault(_mdIcon);
-
-	var _mdIcon3 = __webpack_require__(231);
-
-	var _mdIcon4 = _interopRequireDefault(_mdIcon3);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function install(Vue) {
 	  Vue.component('md-icon', Vue.extend(_mdIcon2.default));
-
-	  Vue.material.styles.push(_mdIcon4.default);
 	}
 	module.exports = exports['default'];
 
@@ -264,34 +258,27 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 221:
+/***/ 201:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
 
-/***/ 231:
-/***/ function(module, exports) {
-
-	module.exports = ".THEME_NAME.md-icon.md-primary {\n  color: PRIMARY-COLOR; }\n\n.THEME_NAME.md-icon.md-accent {\n  color: ACCENT-COLOR; }\n\n.THEME_NAME.md-icon.md-warn {\n  color: WARN-COLOR; }\n"
-
-/***/ },
-
-/***/ 276:
+/***/ 251:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
 	var __vue_styles__ = {}
 
 	/* styles */
-	__webpack_require__(221)
+	__webpack_require__(201)
 
 	/* script */
 	__vue_exports__ = __webpack_require__(130)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(371)
+	var __vue_template__ = __webpack_require__(311)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -303,7 +290,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdIcon/mdIcon.vue"
+	__vue_options__.__file = "/Users/groman00/workspace/vue-material/src/components/mdIcon/mdIcon.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 
@@ -314,9 +301,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-f5836666", __vue_options__)
+	    hotAPI.createRecord("data-v-3fdf6232", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-f5836666", __vue_options__)
+	    hotAPI.reload("data-v-3fdf6232", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] mdIcon.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -326,7 +313,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 371:
+/***/ 311:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -351,7 +338,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-f5836666", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-3fdf6232", module.exports)
 	  }
 	}
 

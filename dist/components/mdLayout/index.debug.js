@@ -70,7 +70,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	exports.default = install;
 
-	var _mdLayout = __webpack_require__(281);
+	var _mdLayout = __webpack_require__(256);
 
 	var _mdLayout2 = _interopRequireDefault(_mdLayout);
 
@@ -220,21 +220,21 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 197:
+/***/ 214:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
 
-/***/ 281:
+/***/ 256:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
 	var __vue_styles__ = {}
 
 	/* styles */
-	__webpack_require__(197)
+	__webpack_require__(214)
 
 	/* script */
 	__vue_exports__ = __webpack_require__(135)
@@ -249,7 +249,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdLayout/mdLayout.vue"
+	__vue_options__.__file = "/Users/groman00/workspace/vue-material/src/components/mdLayout/mdLayout.vue"
 
 	/* hot reload */
 	if (false) {(function () {
@@ -258,9 +258,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-1f1a95a6", __vue_options__)
+	    hotAPI.createRecord("data-v-a03bcb72", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-1f1a95a6", __vue_options__)
+	    hotAPI.reload("data-v-a03bcb72", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] mdLayout.vue: functional components are not supported and should be defined in plain js files using render functions.")}

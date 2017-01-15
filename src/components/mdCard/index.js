@@ -8,7 +8,6 @@ import mdCardContent from './mdCardContent.vue';
 import mdCardActions from './mdCardActions.vue';
 import mdCardArea from './mdCardArea.vue';
 import mdCardExpand from './mdCardExpand.vue';
-import mdCardTheme from './mdCard.theme';
 
 export default function install(Vue) {
   Vue.component('md-card', Vue.extend(mdCard));
@@ -21,6 +20,4 @@ export default function install(Vue) {
   Vue.component('md-card-actions', Vue.extend(mdCardActions));
   Vue.component('md-card-area', Vue.extend(mdCardArea));
   Vue.component('md-card-expand', Vue.extend(mdCardExpand));
-
-  Vue.material.styles.push(mdCardTheme);
 }

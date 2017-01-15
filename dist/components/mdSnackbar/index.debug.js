@@ -7,7 +7,7 @@
 		exports["VueMaterial"] = factory(require("vue"));
 	else
 		root["VueMaterial"] = factory(root["Vue"]);
-})(this, (function(__WEBPACK_EXTERNAL_MODULE_374__) {
+})(this, (function(__WEBPACK_EXTERNAL_MODULE_349__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -150,7 +150,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 43:
+/***/ 44:
 /***/ function(module, exports) {
 
 	"use strict";
@@ -177,20 +177,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	exports.default = install;
 
-	var _mdSnackbar = __webpack_require__(293);
+	var _mdSnackbar = __webpack_require__(268);
 
 	var _mdSnackbar2 = _interopRequireDefault(_mdSnackbar);
-
-	var _mdSnackbar3 = __webpack_require__(240);
-
-	var _mdSnackbar4 = _interopRequireDefault(_mdSnackbar3);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function install(Vue) {
 	  Vue.component('md-snackbar', Vue.extend(_mdSnackbar2.default));
-
-	  Vue.material.styles.push(_mdSnackbar4.default);
 	}
 	module.exports = exports['default'];
 
@@ -205,7 +199,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 
-	var _vue = __webpack_require__(374);
+	var _vue = __webpack_require__(349);
 
 	var _vue2 = _interopRequireDefault(_vue);
 
@@ -233,7 +227,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 
-	var _uniqueId = __webpack_require__(43);
+	var _uniqueId = __webpack_require__(44);
 
 	var _uniqueId2 = _interopRequireDefault(_uniqueId);
 
@@ -384,14 +378,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 240:
-/***/ function(module, exports) {
-
-	module.exports = ".THEME_NAME .md-snackbar .md-ink-ripple, .THEME_NAME.md-snackbar .md-ink-ripple {\n  color: #fff; }\n"
-
-/***/ },
-
-/***/ 293:
+/***/ 268:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
@@ -404,7 +391,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	__vue_exports__ = __webpack_require__(147)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(362)
+	var __vue_template__ = __webpack_require__(334)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -416,7 +403,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdSnackbar/mdSnackbar.vue"
+	__vue_options__.__file = "/Users/groman00/workspace/vue-material/src/components/mdSnackbar/mdSnackbar.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 
@@ -427,9 +414,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-b540e066", __vue_options__)
+	    hotAPI.createRecord("data-v-b3fa5032", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-b540e066", __vue_options__)
+	    hotAPI.reload("data-v-b3fa5032", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] mdSnackbar.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -439,7 +426,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 362:
+/***/ 334:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -460,16 +447,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-b540e066", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-b3fa5032", module.exports)
 	  }
 	}
 
 /***/ },
 
-/***/ 374:
+/***/ 349:
 /***/ function(module, exports) {
 
-	module.exports = __WEBPACK_EXTERNAL_MODULE_374__;
+	module.exports = __WEBPACK_EXTERNAL_MODULE_349__;
 
 /***/ }
 

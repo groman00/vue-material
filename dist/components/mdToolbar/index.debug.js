@@ -131,20 +131,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	exports.default = install;
 
-	var _mdToolbar = __webpack_require__(307);
+	var _mdToolbar = __webpack_require__(282);
 
 	var _mdToolbar2 = _interopRequireDefault(_mdToolbar);
-
-	var _mdToolbar3 = __webpack_require__(246);
-
-	var _mdToolbar4 = _interopRequireDefault(_mdToolbar3);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function install(Vue) {
 	  Vue.component('md-toolbar', Vue.extend(_mdToolbar2.default));
-
-	  Vue.material.styles.push(_mdToolbar4.default);
 	}
 	module.exports = exports['default'];
 
@@ -180,34 +174,27 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 208:
+/***/ 191:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
 
-/***/ 246:
-/***/ function(module, exports) {
-
-	module.exports = ".THEME_NAME.md-toolbar {\n  background-color: PRIMARY-COLOR;\n  color: PRIMARY-CONTRAST; }\n  .THEME_NAME.md-toolbar.md-accent {\n    background-color: ACCENT-COLOR;\n    color: ACCENT-CONTRAST; }\n  .THEME_NAME.md-toolbar.md-warn {\n    background-color: WARN-COLOR;\n    color: WARN-CONTRAST; }\n  .THEME_NAME.md-toolbar.md-transparent {\n    background-color: transparent;\n    color: BACKGROUND-CONTRAST; }\n"
-
-/***/ },
-
-/***/ 307:
+/***/ 282:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
 	var __vue_styles__ = {}
 
 	/* styles */
-	__webpack_require__(208)
+	__webpack_require__(191)
 
 	/* script */
 	__vue_exports__ = __webpack_require__(161)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(347)
+	var __vue_template__ = __webpack_require__(287)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -219,7 +206,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdToolbar/mdToolbar.vue"
+	__vue_options__.__file = "/Users/groman00/workspace/vue-material/src/components/mdToolbar/mdToolbar.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 
@@ -230,9 +217,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-668063d7", __vue_options__)
+	    hotAPI.createRecord("data-v-07aaea71", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-668063d7", __vue_options__)
+	    hotAPI.reload("data-v-07aaea71", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] mdToolbar.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -242,7 +229,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 347:
+/***/ 287:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -255,7 +242,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-668063d7", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-07aaea71", module.exports)
 	  }
 	}
 

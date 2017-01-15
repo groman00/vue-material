@@ -131,20 +131,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	exports.default = install;
 
-	var _mdSubheader = __webpack_require__(295);
+	var _mdSubheader = __webpack_require__(270);
 
 	var _mdSubheader2 = _interopRequireDefault(_mdSubheader);
-
-	var _mdSubheader3 = __webpack_require__(242);
-
-	var _mdSubheader4 = _interopRequireDefault(_mdSubheader3);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function install(Vue) {
 	  Vue.component('md-subheader', Vue.extend(_mdSubheader2.default));
-
-	  Vue.material.styles.push(_mdSubheader4.default);
 	}
 	module.exports = exports['default'];
 
@@ -184,34 +178,27 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 215:
+/***/ 195:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
 
-/***/ 242:
-/***/ function(module, exports) {
-
-	module.exports = ".THEME_NAME.md-subheader.md-primary {\n  color: PRIMARY-COLOR; }\n\n.THEME_NAME.md-subheader.md-accent {\n  color: ACCENT-COLOR; }\n\n.THEME_NAME.md-subheader.md-warn {\n  color: WARN-COLOR; }\n"
-
-/***/ },
-
-/***/ 295:
+/***/ 270:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
 	var __vue_styles__ = {}
 
 	/* styles */
-	__webpack_require__(215)
+	__webpack_require__(195)
 
 	/* script */
 	__vue_exports__ = __webpack_require__(149)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(360)
+	var __vue_template__ = __webpack_require__(297)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -223,7 +210,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdSubheader/mdSubheader.vue"
+	__vue_options__.__file = "/Users/groman00/workspace/vue-material/src/components/mdSubheader/mdSubheader.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 
@@ -234,9 +221,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-a2e7fe8a", __vue_options__)
+	    hotAPI.createRecord("data-v-137daa55", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-a2e7fe8a", __vue_options__)
+	    hotAPI.reload("data-v-137daa55", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] mdSubheader.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -246,7 +233,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 360:
+/***/ 297:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -262,7 +249,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-a2e7fe8a", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-137daa55", module.exports)
 	  }
 	}
 

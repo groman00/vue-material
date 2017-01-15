@@ -70,7 +70,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	exports.default = install;
 
-	var _mdBackdrop = __webpack_require__(249);
+	var _mdBackdrop = __webpack_require__(224);
 
 	var _mdBackdrop2 = _interopRequireDefault(_mdBackdrop);
 
@@ -109,27 +109,27 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 219:
+/***/ 218:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
 
-/***/ 249:
+/***/ 224:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
 	var __vue_styles__ = {}
 
 	/* styles */
-	__webpack_require__(219)
+	__webpack_require__(218)
 
 	/* script */
 	__vue_exports__ = __webpack_require__(111)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(367)
+	var __vue_template__ = __webpack_require__(339)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -141,7 +141,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdBackdrop/mdBackdrop.vue"
+	__vue_options__.__file = "/Users/groman00/workspace/vue-material/src/components/mdBackdrop/mdBackdrop.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 
@@ -152,9 +152,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-df1259a6", __vue_options__)
+	    hotAPI.createRecord("data-v-ddcbc972", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-df1259a6", __vue_options__)
+	    hotAPI.reload("data-v-ddcbc972", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] mdBackdrop.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -164,7 +164,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 367:
+/***/ 339:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -183,7 +183,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-df1259a6", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-ddcbc972", module.exports)
 	  }
 	}
 

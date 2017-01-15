@@ -121,7 +121,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 43:
+/***/ 44:
 /***/ function(module, exports) {
 
 	"use strict";
@@ -148,25 +148,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	exports.default = install;
 
-	var _mdChips = __webpack_require__(266);
+	var _mdChips = __webpack_require__(241);
 
 	var _mdChips2 = _interopRequireDefault(_mdChips);
 
-	var _mdChip = __webpack_require__(265);
+	var _mdChip = __webpack_require__(240);
 
 	var _mdChip2 = _interopRequireDefault(_mdChip);
-
-	var _mdChips3 = __webpack_require__(228);
-
-	var _mdChips4 = _interopRequireDefault(_mdChips3);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function install(Vue) {
 	  Vue.component('md-chips', Vue.extend(_mdChips2.default));
 	  Vue.component('md-chip', Vue.extend(_mdChip2.default));
-
-	  Vue.material.styles.push(_mdChips4.default);
 	}
 	module.exports = exports['default'];
 
@@ -234,7 +228,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _mixin2 = _interopRequireDefault(_mixin);
 
-	var _uniqueId = __webpack_require__(43);
+	var _uniqueId = __webpack_require__(44);
 
 	var _uniqueId2 = _interopRequireDefault(_uniqueId);
 
@@ -355,21 +349,14 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 202:
+/***/ 206:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
 
-/***/ 228:
-/***/ function(module, exports) {
-
-	module.exports = ".THEME_NAME.md-chip {\n  background-color: BACKGROUND-CONTRAST-0.12; }\n  .THEME_NAME.md-chip.md-deletable:hover, .THEME_NAME.md-chip.md-deletable:focus {\n    background-color: BACKGROUND-CONTRAST-0.54;\n    color: BACKGROUND-COLOR; }\n    .THEME_NAME.md-chip.md-deletable:hover .md-delete, .THEME_NAME.md-chip.md-deletable:focus .md-delete {\n      color: BACKGROUND-COLOR; }\n  .THEME_NAME.md-chip .md-delete {\n    color: BACKGROUND-CONTRAST-0.38; }\n    .THEME_NAME.md-chip .md-delete .md-ripple {\n      color: BACKGROUND-COLOR; }\n"
-
-/***/ },
-
-/***/ 265:
+/***/ 240:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
@@ -379,7 +366,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	__vue_exports__ = __webpack_require__(123)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(326)
+	var __vue_template__ = __webpack_require__(302)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -391,7 +378,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdChips/mdChip.vue"
+	__vue_options__.__file = "/Users/groman00/workspace/vue-material/src/components/mdChips/mdChip.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 
@@ -402,9 +389,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-23449298", __vue_options__)
+	    hotAPI.createRecord("data-v-2468104c", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-23449298", __vue_options__)
+	    hotAPI.reload("data-v-2468104c", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] mdChip.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -414,20 +401,20 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 266:
+/***/ 241:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
 	var __vue_styles__ = {}
 
 	/* styles */
-	__webpack_require__(202)
+	__webpack_require__(206)
 
 	/* script */
 	__vue_exports__ = __webpack_require__(124)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(334)
+	var __vue_template__ = __webpack_require__(319)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -439,7 +426,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdChips/mdChips.vue"
+	__vue_options__.__file = "/Users/groman00/workspace/vue-material/src/components/mdChips/mdChips.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 
@@ -450,9 +437,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-3df67e22", __vue_options__)
+	    hotAPI.createRecord("data-v-6142b6ee", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-3df67e22", __vue_options__)
+	    hotAPI.reload("data-v-6142b6ee", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] mdChips.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -462,7 +449,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 326:
+/***/ 302:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -494,13 +481,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-23449298", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-2468104c", module.exports)
 	  }
 	}
 
 /***/ },
 
-/***/ 334:
+/***/ 319:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -574,7 +561,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-3df67e22", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-6142b6ee", module.exports)
 	  }
 	}
 

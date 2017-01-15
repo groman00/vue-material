@@ -545,21 +545,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	exports.default = install;
 
-	var _mdInputContainer = __webpack_require__(279);
+	var _mdInputContainer = __webpack_require__(254);
 
 	var _mdInputContainer2 = _interopRequireDefault(_mdInputContainer);
 
-	var _mdInput = __webpack_require__(278);
+	var _mdInput = __webpack_require__(253);
 
 	var _mdInput2 = _interopRequireDefault(_mdInput);
 
-	var _mdTextarea = __webpack_require__(280);
+	var _mdTextarea = __webpack_require__(255);
 
 	var _mdTextarea2 = _interopRequireDefault(_mdTextarea);
-
-	var _mdInputContainer3 = __webpack_require__(233);
-
-	var _mdInputContainer4 = _interopRequireDefault(_mdInputContainer3);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -567,8 +563,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	  Vue.component('md-input-container', _mdInputContainer2.default);
 	  Vue.component('md-input', _mdInput2.default);
 	  Vue.component('md-textarea', _mdTextarea2.default);
-
-	  Vue.material.styles.push(_mdInputContainer4.default);
 	}
 	module.exports = exports['default'];
 
@@ -828,21 +822,14 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 206:
+/***/ 220:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
 
-/***/ 233:
-/***/ function(module, exports) {
-
-	module.exports = ".THEME_NAME.md-input-container.md-input-invalid:after {\n  background-color: WARN-COLOR; }\n\n.THEME_NAME.md-input-container.md-input-invalid label,\n.THEME_NAME.md-input-container.md-input-invalid input,\n.THEME_NAME.md-input-container.md-input-invalid textarea,\n.THEME_NAME.md-input-container.md-input-invalid .md-error,\n.THEME_NAME.md-input-container.md-input-invalid .md-count,\n.THEME_NAME.md-input-container.md-input-invalid .md-icon:not(.md-icon-delete) {\n  color: WARN-COLOR; }\n\n.THEME_NAME.md-input-container.md-input-focused.md-input-inline label {\n  color: rgba(0, 0, 0, 0.54); }\n\n.THEME_NAME.md-input-container.md-input-focused.md-input-required label:after {\n  color: WARN-COLOR; }\n\n.THEME_NAME.md-input-container.md-input-focused:after {\n  height: 2px;\n  background-color: PRIMARY-COLOR; }\n\n.THEME_NAME.md-input-container.md-input-focused input,\n.THEME_NAME.md-input-container.md-input-focused textarea {\n  color: PRIMARY-COLOR;\n  text-shadow: 0 0 0 BACKGROUND-CONTRAST;\n  -webkit-text-fill-color: transparent; }\n\n.THEME_NAME.md-input-container.md-input-focused label,\n.THEME_NAME.md-input-container.md-input-focused .md-icon:not(.md-icon-delete) {\n  color: PRIMARY-COLOR; }\n\n.THEME_NAME.md-input-container.md-input-disabled label,\n.THEME_NAME.md-input-container.md-input-disabled input,\n.THEME_NAME.md-input-container.md-input-disabled textarea,\n.THEME_NAME.md-input-container.md-input-disabled .md-error,\n.THEME_NAME.md-input-container.md-input-disabled .md-count,\n.THEME_NAME.md-input-container.md-input-disabled .md-icon:not(.md-icon-delete),\n.THEME_NAME.md-input-container.md-input-disabled ::-webkit-input-placeholder {\n  color: BACKGROUND-CONTRAST-0.38; }\n\n.THEME_NAME.md-input-container .md-icon:not(.md-icon-delete):after {\n  background: BACKGROUND-COLOR; }\n"
-
-/***/ },
-
-/***/ 278:
+/***/ 253:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
@@ -852,7 +839,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	__vue_exports__ = __webpack_require__(132)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(342)
+	var __vue_template__ = __webpack_require__(294)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -864,7 +851,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdInputContainer/mdInput.vue"
+	__vue_options__.__file = "/Users/groman00/workspace/vue-material/src/components/mdInputContainer/mdInput.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 
@@ -875,9 +862,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-53a56078", __vue_options__)
+	    hotAPI.createRecord("data-v-0f70d96a", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-53a56078", __vue_options__)
+	    hotAPI.reload("data-v-0f70d96a", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] mdInput.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -887,20 +874,20 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 279:
+/***/ 254:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
 	var __vue_styles__ = {}
 
 	/* styles */
-	__webpack_require__(206)
+	__webpack_require__(220)
 
 	/* script */
 	__vue_exports__ = __webpack_require__(133)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(339)
+	var __vue_template__ = __webpack_require__(344)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -912,7 +899,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdInputContainer/mdInputContainer.vue"
+	__vue_options__.__file = "/Users/groman00/workspace/vue-material/src/components/mdInputContainer/mdInputContainer.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 
@@ -923,9 +910,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-4e747acd", __vue_options__)
+	    hotAPI.createRecord("data-v-f48b2832", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-4e747acd", __vue_options__)
+	    hotAPI.reload("data-v-f48b2832", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] mdInputContainer.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -935,7 +922,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 280:
+/***/ 255:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
@@ -945,7 +932,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	__vue_exports__ = __webpack_require__(134)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(346)
+	var __vue_template__ = __webpack_require__(310)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -957,7 +944,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdInputContainer/mdTextarea.vue"
+	__vue_options__.__file = "/Users/groman00/workspace/vue-material/src/components/mdInputContainer/mdTextarea.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 
@@ -968,9 +955,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-62d24f30", __vue_options__)
+	    hotAPI.createRecord("data-v-3d419bca", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-62d24f30", __vue_options__)
+	    hotAPI.reload("data-v-3d419bca", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] mdTextarea.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -980,33 +967,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 339:
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _c('div', {
-	    staticClass: "md-input-container",
-	    class: [_vm.themeClass, _vm.classes]
-	  }, [_vm._t("default"), _vm._v(" "), (_vm.enableCounter) ? _c('span', {
-	    staticClass: "md-count"
-	  }, [_vm._v(_vm._s(_vm.inputLength) + " / " + _vm._s(_vm.counterLength))]) : _vm._e(), _vm._v(" "), (_vm.mdHasPassword) ? _c('md-button', {
-	    staticClass: "md-icon-button md-toggle-password",
-	    on: {
-	      "click": _vm.togglePasswordType
-	    }
-	  }, [_c('md-icon', [_vm._v(_vm._s(_vm.showPassword ? 'visibility_off' : 'visibility'))])], 1) : _vm._e()], 2)
-	},staticRenderFns: []}
-	module.exports.render._withStripped = true
-	if (false) {
-	  module.hot.accept()
-	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-4e747acd", module.exports)
-	  }
-	}
-
-/***/ },
-
-/***/ 342:
+/***/ 294:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -1040,13 +1001,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-53a56078", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-0f70d96a", module.exports)
 	  }
 	}
 
 /***/ },
 
-/***/ 346:
+/***/ 310:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -1072,7 +1033,33 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-62d24f30", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-3d419bca", module.exports)
+	  }
+	}
+
+/***/ },
+
+/***/ 344:
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('div', {
+	    staticClass: "md-input-container",
+	    class: [_vm.themeClass, _vm.classes]
+	  }, [_vm._t("default"), _vm._v(" "), (_vm.enableCounter) ? _c('span', {
+	    staticClass: "md-count"
+	  }, [_vm._v(_vm._s(_vm.inputLength) + " / " + _vm._s(_vm.counterLength))]) : _vm._e(), _vm._v(" "), (_vm.mdHasPassword) ? _c('md-button', {
+	    staticClass: "md-icon-button md-toggle-password",
+	    on: {
+	      "click": _vm.togglePasswordType
+	    }
+	  }, [_c('md-icon', [_vm._v(_vm._s(_vm.showPassword ? 'visibility_off' : 'visibility'))])], 1) : _vm._e()], 2)
+	},staticRenderFns: []}
+	module.exports.render._withStripped = true
+	if (false) {
+	  module.hot.accept()
+	  if (module.hot.data) {
+	     require("vue-hot-reload-api").rerender("data-v-f48b2832", module.exports)
 	  }
 	}
 
