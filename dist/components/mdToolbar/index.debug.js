@@ -131,7 +131,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	exports.default = install;
 
-	var _mdToolbar = __webpack_require__(282);
+	var _mdToolbar = __webpack_require__(281);
 
 	var _mdToolbar2 = _interopRequireDefault(_mdToolbar);
 
@@ -181,7 +181,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 282:
+/***/ 281:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
@@ -194,7 +194,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	__vue_exports__ = __webpack_require__(161)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(287)
+	var __vue_template__ = __webpack_require__(286)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -229,7 +229,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 287:
+/***/ 286:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;

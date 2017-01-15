@@ -1,7 +1,6 @@
 /* Code Components */
 import MdTheme from './components/mdTheme';
 import MdInkRipple from './components/mdInkRipple';
-import CoreTheme from './stylesheets/core.theme';
 
 /* Core Stylesheets */
 import './stylesheets/core.scss';
@@ -17,5 +16,4 @@ export default function install(Vue) {
 
   Vue.use(MdTheme);
   Vue.use(MdInkRipple);
-  Vue.material.styles.push(CoreTheme);
 }

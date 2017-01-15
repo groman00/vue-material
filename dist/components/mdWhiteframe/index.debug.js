@@ -70,7 +70,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	exports.default = install;
 
-	var _mdWhiteframe = __webpack_require__(284);
+	var _mdWhiteframe = __webpack_require__(283);
 
 	var _mdWhiteframe2 = _interopRequireDefault(_mdWhiteframe);
 
@@ -138,7 +138,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 284:
+/***/ 283:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__

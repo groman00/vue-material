@@ -70,7 +70,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	exports.default = install;
 
-	var _mdLayout = __webpack_require__(256);
+	var _mdLayout = __webpack_require__(255);
 
 	var _mdLayout2 = _interopRequireDefault(_mdLayout);
 
@@ -227,7 +227,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 256:
+/***/ 255:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__

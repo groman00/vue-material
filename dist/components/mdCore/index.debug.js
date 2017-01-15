@@ -580,7 +580,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	exports.default = install;
 
-	var _mdInkRipple = __webpack_require__(285);
+	var _mdInkRipple = __webpack_require__(284);
 
 	var _mdInkRipple2 = _interopRequireDefault(_mdInkRipple);
 
@@ -616,7 +616,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _rgba2 = _interopRequireDefault(_rgba);
 
-	var _mdTheme = __webpack_require__(286);
+	var _mdTheme = __webpack_require__(285);
 
 	var _mdTheme2 = _interopRequireDefault(_mdTheme);
 
@@ -1226,15 +1226,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _mdInkRipple2 = _interopRequireDefault(_mdInkRipple);
 
-	var _core = __webpack_require__(222);
-
-	var _core2 = _interopRequireDefault(_core);
-
-	__webpack_require__(348);
+	__webpack_require__(347);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	/* Code Components */
 	function install(Vue) {
 	  if (install.installed) {
 	    console.warn('Vue Material is already installed.');
@@ -1246,10 +1241,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  Vue.use(_mdTheme2.default);
 	  Vue.use(_mdInkRipple2.default);
-	  Vue.material.styles.push(_core2.default);
 	}
 
 	/* Core Stylesheets */
+	/* Code Components */
 	module.exports = exports['default'];
 
 /***/ },
@@ -1571,14 +1566,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 222:
-/***/ function(module, exports) {
-
-	module.exports = ".THEME_NAME :not(input):not(textarea)::selection {\n  background: ACCENT-COLOR;\n  color: ACCENT-CONTRAST; }\n\n.THEME_NAME a:not(.md-button) {\n  color: ACCENT-COLOR; }\n  .THEME_NAME a:not(.md-button):hover {\n    color: ACCENT-COLOR-800; }\n\nbody.THEME_NAME {\n  background-color: BACKGROUND-COLOR;\n  color: BACKGROUND-CONTRAST-0.87; }\n\n/* Typography */\n.THEME_NAME .md-caption,\n.THEME_NAME .md-display-1,\n.THEME_NAME .md-display-2,\n.THEME_NAME .md-display-3,\n.THEME_NAME .md-display-4 {\n  color: BACKGROUND-CONTRAST-0.57; }\n\n.THEME_NAME code:not(.hljs) {\n  background-color: ACCENT-COLOR-A100-0.2;\n  color: ACCENT-COLOR-800; }\n"
-
-/***/ },
-
-/***/ 285:
+/***/ 284:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
@@ -1591,7 +1579,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	__vue_exports__ = __webpack_require__(164)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(314)
+	var __vue_template__ = __webpack_require__(313)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -1626,7 +1614,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 286:
+/***/ 285:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
@@ -1666,7 +1654,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 314:
+/***/ 313:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -1689,7 +1677,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 347:
+/***/ 346:
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
@@ -1912,7 +1900,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 348:
+/***/ 347:
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -1921,7 +1909,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var content = __webpack_require__(188);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(347)(content, {});
+	var update = __webpack_require__(346)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {

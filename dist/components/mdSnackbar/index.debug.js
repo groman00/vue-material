@@ -7,7 +7,7 @@
 		exports["VueMaterial"] = factory(require("vue"));
 	else
 		root["VueMaterial"] = factory(root["Vue"]);
-})(this, (function(__WEBPACK_EXTERNAL_MODULE_349__) {
+})(this, (function(__WEBPACK_EXTERNAL_MODULE_348__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -177,7 +177,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	exports.default = install;
 
-	var _mdSnackbar = __webpack_require__(268);
+	var _mdSnackbar = __webpack_require__(267);
 
 	var _mdSnackbar2 = _interopRequireDefault(_mdSnackbar);
 
@@ -199,7 +199,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 
-	var _vue = __webpack_require__(349);
+	var _vue = __webpack_require__(348);
 
 	var _vue2 = _interopRequireDefault(_vue);
 
@@ -378,7 +378,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 268:
+/***/ 267:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
@@ -391,7 +391,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	__vue_exports__ = __webpack_require__(147)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(334)
+	var __vue_template__ = __webpack_require__(333)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -426,7 +426,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 334:
+/***/ 333:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -453,10 +453,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 349:
+/***/ 348:
 /***/ function(module, exports) {
 
-	module.exports = __WEBPACK_EXTERNAL_MODULE_349__;
+	module.exports = __WEBPACK_EXTERNAL_MODULE_348__;
 
 /***/ }
 
