@@ -3,7 +3,7 @@ import MdTheme from './components/mdTheme';
 import MdInkRipple from './components/mdInkRipple';
 
 /* Core Stylesheets */
-import './stylesheets/core.scss';
+// import './stylesheets/core.scss';
 
 export default function install(Vue) {
   if (install.installed) {
