@@ -131,7 +131,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	exports.default = install;
 
-	var _mdProgress = __webpack_require__(262);
+	var _mdProgress = __webpack_require__(260);
 
 	var _mdProgress2 = _interopRequireDefault(_mdProgress);
 
@@ -197,27 +197,27 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 199:
+/***/ 197:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
 
-/***/ 262:
+/***/ 260:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
 	var __vue_styles__ = {}
 
 	/* styles */
-	__webpack_require__(199)
+	__webpack_require__(197)
 
 	/* script */
 	__vue_exports__ = __webpack_require__(142)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(303)
+	var __vue_template__ = __webpack_require__(301)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -252,7 +252,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 303:
+/***/ 301:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;

@@ -131,7 +131,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	exports.default = install;
 
-	var _mdCheckbox = __webpack_require__(238);
+	var _mdCheckbox = __webpack_require__(236);
 
 	var _mdCheckbox2 = _interopRequireDefault(_mdCheckbox);
 
@@ -215,27 +215,27 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 212:
+/***/ 210:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
 
-/***/ 238:
+/***/ 236:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
 	var __vue_styles__ = {}
 
 	/* styles */
-	__webpack_require__(212)
+	__webpack_require__(210)
 
 	/* script */
 	__vue_exports__ = __webpack_require__(122)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(328)
+	var __vue_template__ = __webpack_require__(326)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -270,7 +270,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 328:
+/***/ 326:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;

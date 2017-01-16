@@ -70,7 +70,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	exports.default = install;
 
-	var _mdDivider = __webpack_require__(248);
+	var _mdDivider = __webpack_require__(246);
 
 	var _mdDivider2 = _interopRequireDefault(_mdDivider);
 
@@ -83,24 +83,24 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 219:
+/***/ 217:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
 
-/***/ 248:
+/***/ 246:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
 	var __vue_styles__ = {}
 
 	/* styles */
-	__webpack_require__(219)
+	__webpack_require__(217)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(342)
+	var __vue_template__ = __webpack_require__(340)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -135,7 +135,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 342:
+/***/ 340:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;

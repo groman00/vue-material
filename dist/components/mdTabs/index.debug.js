@@ -687,11 +687,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	exports.default = install;
 
-	var _mdTabs = __webpack_require__(280);
+	var _mdTabs = __webpack_require__(278);
 
 	var _mdTabs2 = _interopRequireDefault(_mdTabs);
 
-	var _mdTab = __webpack_require__(279);
+	var _mdTab = __webpack_require__(277);
 
 	var _mdTab2 = _interopRequireDefault(_mdTab);
 
@@ -1113,14 +1113,14 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 193:
+/***/ 191:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
 
-/***/ 279:
+/***/ 277:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
@@ -1130,7 +1130,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	__vue_exports__ = __webpack_require__(159)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(306)
+	var __vue_template__ = __webpack_require__(304)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -1165,20 +1165,20 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 280:
+/***/ 278:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
 	var __vue_styles__ = {}
 
 	/* styles */
-	__webpack_require__(193)
+	__webpack_require__(191)
 
 	/* script */
 	__vue_exports__ = __webpack_require__(160)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(290)
+	var __vue_template__ = __webpack_require__(288)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -1213,7 +1213,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 290:
+/***/ 288:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -1283,7 +1283,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 306:
+/***/ 304:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;

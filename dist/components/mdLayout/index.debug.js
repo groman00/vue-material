@@ -70,7 +70,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	exports.default = install;
 
-	var _mdLayout = __webpack_require__(255);
+	var _mdLayout = __webpack_require__(253);
 
 	var _mdLayout2 = _interopRequireDefault(_mdLayout);
 
@@ -220,21 +220,21 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 214:
+/***/ 212:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
 
-/***/ 255:
+/***/ 253:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
 	var __vue_styles__ = {}
 
 	/* styles */
-	__webpack_require__(214)
+	__webpack_require__(212)
 
 	/* script */
 	__vue_exports__ = __webpack_require__(135)

@@ -131,7 +131,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	exports.default = install;
 
-	var _mdSubheader = __webpack_require__(269);
+	var _mdSubheader = __webpack_require__(267);
 
 	var _mdSubheader2 = _interopRequireDefault(_mdSubheader);
 
@@ -178,27 +178,27 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 195:
+/***/ 193:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
 
-/***/ 269:
+/***/ 267:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
 	var __vue_styles__ = {}
 
 	/* styles */
-	__webpack_require__(195)
+	__webpack_require__(193)
 
 	/* script */
 	__vue_exports__ = __webpack_require__(149)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(296)
+	var __vue_template__ = __webpack_require__(294)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -233,7 +233,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 296:
+/***/ 294:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;

@@ -131,7 +131,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	exports.default = install;
 
-	var _mdSwitch = __webpack_require__(270);
+	var _mdSwitch = __webpack_require__(268);
 
 	var _mdSwitch2 = _interopRequireDefault(_mdSwitch);
 
@@ -243,27 +243,27 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 221:
+/***/ 219:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
 
-/***/ 270:
+/***/ 268:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
 	var __vue_styles__ = {}
 
 	/* styles */
-	__webpack_require__(221)
+	__webpack_require__(219)
 
 	/* script */
 	__vue_exports__ = __webpack_require__(150)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(345)
+	var __vue_template__ = __webpack_require__(343)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -298,7 +298,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 345:
+/***/ 343:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;

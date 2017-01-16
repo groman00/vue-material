@@ -670,35 +670,35 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	exports.default = install;
 
-	var _mdTable = __webpack_require__(271);
+	var _mdTable = __webpack_require__(269);
 
 	var _mdTable2 = _interopRequireDefault(_mdTable);
 
-	var _mdTableRow = __webpack_require__(278);
+	var _mdTableRow = __webpack_require__(276);
 
 	var _mdTableRow2 = _interopRequireDefault(_mdTableRow);
 
-	var _mdTableHead = __webpack_require__(276);
+	var _mdTableHead = __webpack_require__(274);
 
 	var _mdTableHead2 = _interopRequireDefault(_mdTableHead);
 
-	var _mdTableCell = __webpack_require__(274);
+	var _mdTableCell = __webpack_require__(272);
 
 	var _mdTableCell2 = _interopRequireDefault(_mdTableCell);
 
-	var _mdTableEdit = __webpack_require__(275);
+	var _mdTableEdit = __webpack_require__(273);
 
 	var _mdTableEdit2 = _interopRequireDefault(_mdTableEdit);
 
-	var _mdTableCard = __webpack_require__(273);
+	var _mdTableCard = __webpack_require__(271);
 
 	var _mdTableCard2 = _interopRequireDefault(_mdTableCard);
 
-	var _mdTableAlternateHeader = __webpack_require__(272);
+	var _mdTableAlternateHeader = __webpack_require__(270);
 
 	var _mdTableAlternateHeader2 = _interopRequireDefault(_mdTableAlternateHeader);
 
-	var _mdTablePagination = __webpack_require__(277);
+	var _mdTablePagination = __webpack_require__(275);
 
 	var _mdTablePagination2 = _interopRequireDefault(_mdTablePagination);
 
@@ -1431,27 +1431,27 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 211:
+/***/ 209:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
 
-/***/ 271:
+/***/ 269:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
 	var __vue_styles__ = {}
 
 	/* styles */
-	__webpack_require__(211)
+	__webpack_require__(209)
 
 	/* script */
 	__vue_exports__ = __webpack_require__(151)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(326)
+	var __vue_template__ = __webpack_require__(324)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -1486,7 +1486,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 272:
+/***/ 270:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
@@ -1496,7 +1496,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	__vue_exports__ = __webpack_require__(152)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(337)
+	var __vue_template__ = __webpack_require__(335)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -1531,7 +1531,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 273:
+/***/ 271:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
@@ -1541,7 +1541,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	__vue_exports__ = __webpack_require__(153)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(304)
+	var __vue_template__ = __webpack_require__(302)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -1576,7 +1576,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 274:
+/***/ 272:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
@@ -1586,7 +1586,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	__vue_exports__ = __webpack_require__(154)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(292)
+	var __vue_template__ = __webpack_require__(290)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -1621,7 +1621,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 275:
+/***/ 273:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
@@ -1631,7 +1631,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	__vue_exports__ = __webpack_require__(155)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(340)
+	var __vue_template__ = __webpack_require__(338)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -1666,7 +1666,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 276:
+/***/ 274:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
@@ -1676,7 +1676,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	__vue_exports__ = __webpack_require__(156)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(302)
+	var __vue_template__ = __webpack_require__(300)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -1711,7 +1711,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 277:
+/***/ 275:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
@@ -1721,7 +1721,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	__vue_exports__ = __webpack_require__(157)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(330)
+	var __vue_template__ = __webpack_require__(328)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -1756,7 +1756,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 278:
+/***/ 276:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
@@ -1766,7 +1766,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	__vue_exports__ = __webpack_require__(158)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(321)
+	var __vue_template__ = __webpack_require__(319)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -1801,7 +1801,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 292:
+/***/ 290:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -1822,7 +1822,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 302:
+/***/ 300:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -1854,7 +1854,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 304:
+/***/ 302:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -1873,7 +1873,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 321:
+/***/ 319:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -1916,7 +1916,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 326:
+/***/ 324:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -1935,7 +1935,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 330:
+/***/ 328:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -1996,7 +1996,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 337:
+/***/ 335:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -2019,7 +2019,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 340:
+/***/ 338:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;

@@ -131,11 +131,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	exports.default = install;
 
-	var _mdBottomBar = __webpack_require__(224);
+	var _mdBottomBar = __webpack_require__(222);
 
 	var _mdBottomBar2 = _interopRequireDefault(_mdBottomBar);
 
-	var _mdBottomBarItem = __webpack_require__(225);
+	var _mdBottomBarItem = __webpack_require__(223);
 
 	var _mdBottomBarItem2 = _interopRequireDefault(_mdBottomBarItem);
 
@@ -277,27 +277,27 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 207:
+/***/ 205:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
 
-/***/ 224:
+/***/ 222:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
 	var __vue_styles__ = {}
 
 	/* styles */
-	__webpack_require__(207)
+	__webpack_require__(205)
 
 	/* script */
 	__vue_exports__ = __webpack_require__(112)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(319)
+	var __vue_template__ = __webpack_require__(317)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -332,7 +332,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 225:
+/***/ 223:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
@@ -342,7 +342,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	__vue_exports__ = __webpack_require__(113)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(295)
+	var __vue_template__ = __webpack_require__(293)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -377,7 +377,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 295:
+/***/ 293:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -425,7 +425,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 319:
+/***/ 317:
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;

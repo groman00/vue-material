@@ -70,7 +70,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	exports.default = install;
 
-	var _mdWhiteframe = __webpack_require__(283);
+	var _mdWhiteframe = __webpack_require__(281);
 
 	var _mdWhiteframe2 = _interopRequireDefault(_mdWhiteframe);
 
@@ -131,21 +131,21 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 
-/***/ 198:
+/***/ 196:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
 
-/***/ 283:
+/***/ 281:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_exports__, __vue_options__
 	var __vue_styles__ = {}
 
 	/* styles */
-	__webpack_require__(198)
+	__webpack_require__(196)
 
 	/* script */
 	__vue_exports__ = __webpack_require__(163)
